@@ -3,13 +3,13 @@ import requests
 import random
 
 # Telegram bot token
-TOKEN = "6235414945:AAGc-haC-TenI0hm6j4J4yLVGqvAA9th8H0"
+TOKEN = "YOUR TOKEN HERE"
 
 # Unsplash API endpoint
 UNSPLASH_API = "https://api.unsplash.com/photos/random"
 
 # Unsplash API access key
-UNSPLASH_ACCESS_KEY = "f5kPkA349O4Na8Z0vJ1y7jpLoE0WG7A13lodVMGBJjc"
+UNSPLASH_ACCESS_KEY = "YOUR UNLEASH API KEY HERE"
 
 # Create a Telegram bot instance
 bot = telegram.Bot(token=TOKEN)
